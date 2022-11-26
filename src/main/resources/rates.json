@@ -1,116 +1,126 @@
-{
-  "rates": {
-    "AT": {
+[{
+      "country_short_name": "AT",
       "country": "Austria",
       "vat_name": "Umsatzsteuer",
       "vat_abbr": "USt",
       "standard_rate": 20.00,
       "reduced_rate": 10.00,
       "reduced_rate_alt": 13.00,
-      "super_reduced_rate": false,
+      "super_reduced_rate": 0.00,
       "parking_rate": 12.00
     },
-    "BE": {
+    {
+      "country_short_name": "BE",
       "country": "Belgium",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA/BTW",
       "standard_rate": 21.00,
       "reduced_rate": 12.00,
       "reduced_rate_alt": 6.00,
-      "super_reduced_rate": false,
+      "super_reduced_rate": 0.00,
       "parking_rate": 12.00
     },
-    "BG": {
+     {
+       "country_short_name": "BG",
       "country": "Bulgaria",
       "vat_name": "Dana Dobavena Stoynost",
       "vat_abbr": "DDS",
       "standard_rate": 20.00,
       "reduced_rate": 9.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "CY": {
+    {
+      "country_short_name": "CY",
       "country": "Cyprus",
       "vat_name": "Foros prostithemenis axias",
       "vat_abbr": "FPA",
       "standard_rate": 19.00,
       "reduced_rate": 9.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "CZ": {
+     {
+    "country_short_name": "CZ",
       "country": "Czech Republic",
       "vat_name": "Dani z pridane hotnoty",
       "vat_abbr": "DPH",
       "standard_rate": 21.00,
       "reduced_rate": 15.00,
       "reduced_rate_alt": 10.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "DK": {
+     {
+  "country_short_name": "DK",
       "country": "Denmark",
       "vat_name": "Omsaetningsavgift",
       "vat_abbr": "MOMS",
       "standard_rate": 25.00,
-      "reduced_rate": false,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate": 0.00,
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "DE": {
+     {
+       "country_short_name": "DE",
       "country": "Germany",
       "vat_name": "Umsatzsteuer",
       "vat_abbr": "USt",
       "standard_rate": 19.00,
       "reduced_rate": 7.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "EE": {
+     {
+       "country_short_name": "EE",
       "country": "Estonia",
       "vat_name": "Käibemaks",
       "vat_abbr": "KMKR",
       "standard_rate": 20.00,
       "reduced_rate": 9.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "GR": {
+     {
+       "country_short_name": "GR",
       "country": "Greece",
       "vat_name": "Foros prostithemenis axias",
       "vat_abbr": "FPA",
       "standard_rate": 24.00,
       "reduced_rate": 13.00,
       "reduced_rate_alt": 6.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "ES": {
+    {
+      "country_short_name": "ES",
       "country": "Spain",
       "vat_name": "Impuesto sobre el valor añadido",
       "vat_abbr": "IVA",
       "standard_rate": 21.00,
       "reduced_rate": 10.00,
-      "reduced_rate_alt": false,
+      "reduced_rate_alt": 0.00,
       "super_reduced_rate": 4.00,
-      "parking_rate": false
+      "parking_rate": 0.00
     },
-    "FI": {
+    {
+      "country_short_name": "FI",
       "country": "Finland",
       "vat_name": "Arvonlisävero",
       "vat_abbr": "ALV",
       "standard_rate": 24.00,
       "reduced_rate": 14.00,
       "reduced_rate_alt": 10.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "FR": {
+    {
+      "country_short_name": "FR",
       "country": "France",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA",
@@ -118,49 +128,54 @@
       "reduced_rate": 10.00,
       "reduced_rate_alt": 5.50,
       "super_reduced_rate": 2.10,
-      "parking_rate": false
+      "parking_rate": 0.00
     },
-    "HR": {
+     {
+       "country_short_name": "HR",
       "country": "Croatia",
       "vat_name": "Porez na dodanu vrijednost",
       "vat_abbr": "PDV",
       "standard_rate": 25.00,
       "reduced_rate": 13.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "IT": {
+     {
+       "country_short_name": "IT",
       "country": "Italy",
       "vat_name": "Imposta sul valore aggiunto",
       "vat_abbr": "IVA",
       "standard_rate": 22.00,
       "reduced_rate": 10.00,
       "reduced_rate_alt": 4.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "LV": {
+     {
+       "country_short_name": "LV",
       "country": "Latvia",
       "vat_name": "Pievienotas vertibas nodoklis",
       "vat_abbr": "PVN",
       "standard_rate": 21.00,
       "reduced_rate": 12.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "LT": {
+     {
+       "country_short_name": "LT",
       "country": "Lithuania",
       "vat_name": "Pridetines vertes mokestis",
       "vat_abbr": "PVM",
       "standard_rate": 21.00,
       "reduced_rate": 9.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "LU": {
+    {
+      "country_short_name": "LU",
       "country": "Luxembourg",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA",
@@ -170,17 +185,19 @@
       "super_reduced_rate": 3.00,
       "parking_rate": 12.00
     },
-    "HU": {
+    {
+      "country_short_name": "HU",
       "country": "Hungary",
       "vat_name": "Általános forgalmi adó",
       "vat_abbr": "AFA",
       "standard_rate": 27.00,
       "reduced_rate": 18.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "IE": {
+     {
+       "country_short_name": "IE",
       "country": "Ireland",
       "vat_name": "Value added tax",
       "vat_abbr": "VAT",
@@ -190,85 +207,92 @@
       "super_reduced_rate": 4.80,
       "parking_rate": 13.50
     },
-    "MT": {
+    {
+      "country_short_name": "MT",
       "country": "Malta",
       "vat_name": "Value added tax",
       "vat_abbr": "VAT",
       "standard_rate": 18.00,
       "reduced_rate": 7.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "NL": {
+   {
+     "country_short_name": "NL",
       "country": "Netherlands",
       "vat_name": "Omzetbelasting",
       "vat_abbr": "OB",
       "standard_rate": 21.00,
       "reduced_rate": 9.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "PL": {
+     {
+       "country_short_name": "PL",
       "country": "Poland",
       "vat_name": "Podatek od towaròw i uslug",
       "vat_abbr": "VAT",
       "standard_rate": 23.00,
       "reduced_rate": 8.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "PT": {
+     {
+       "country_short_name": "PT",
       "country": "Portugal",
       "vat_name": "Imposto sobre o valor acrescentado",
       "vat_abbr": "IVA",
       "standard_rate": 23.00,
       "reduced_rate": 13.00,
       "reduced_rate_alt": 6.00,
-      "super_reduced_rate": false,
+      "super_reduced_rate": 0.00,
       "parking_rate": 13.00
     },
-    "RO": {
+    {
+      "country_short_name": "RO",
       "country": "Romania",
       "vat_name": "Taxa pe valoarea adãugata",
       "vat_abbr": "TVA",
       "standard_rate": 19.00,
       "reduced_rate": 9.00,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "SI": {
+    {
+  "country_short_name": "SI",
       "country": "Slovenia",
       "vat_name": "Davek na dodano vred nost",
       "vat_abbr": "DDV",
       "standard_rate": 22.00,
       "reduced_rate": 9.50,
       "reduced_rate_alt": 5.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "SK": {
+     {
+       "country_short_name": "SK",
       "country": "Slovakia",
       "vat_name": "Dan z pridanej hodnoty",
       "vat_abbr": "DPH",
       "standard_rate": 20.00,
       "reduced_rate": 10.00,
-      "reduced_rate_alt": false,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "reduced_rate_alt": 0.00,
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     },
-    "SE": {
+     {
+       "country_short_name": "SE",
       "country": "Sweden",
       "vat_name": "Mervärdeskatt",
       "vat_abbr": "ML",
       "standard_rate": 25.00,
       "reduced_rate": 12.00,
       "reduced_rate_alt": 6.00,
-      "super_reduced_rate": false,
-      "parking_rate": false
+      "super_reduced_rate": 0.00,
+      "parking_rate": 0.00
     }
-  }
-}
+  ]
