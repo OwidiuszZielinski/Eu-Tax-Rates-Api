@@ -1,5 +1,5 @@
 [{
-      "country_short_name": "AT",
+      "countryShortName": "AT",
       "country": "Austria",
       "vat_name": "Umsatzsteuer",
       "vat_abbr": "USt",
@@ -10,7 +10,7 @@
       "parking_rate": 12.00
     },
     {
-      "country_short_name": "BE",
+      "countryShortName": "BE",
       "country": "Belgium",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA/BTW",
@@ -21,7 +21,7 @@
       "parking_rate": 12.00
     },
      {
-       "country_short_name": "BG",
+       "countryShortName": "BG",
       "country": "Bulgaria",
       "vat_name": "Dana Dobavena Stoynost",
       "vat_abbr": "DDS",
@@ -32,7 +32,7 @@
       "parking_rate": 0.00
     },
     {
-      "country_short_name": "CY",
+      "countryShortName": "CY",
       "country": "Cyprus",
       "vat_name": "Foros prostithemenis axias",
       "vat_abbr": "FPA",
@@ -43,7 +43,7 @@
       "parking_rate": 0.00
     },
      {
-    "country_short_name": "CZ",
+       "countryShortName": "CZ",
       "country": "Czech Republic",
       "vat_name": "Dani z pridane hotnoty",
       "vat_abbr": "DPH",
@@ -54,7 +54,7 @@
       "parking_rate": 0.00
     },
      {
-  "country_short_name": "DK",
+       "countryShortName": "DK",
       "country": "Denmark",
       "vat_name": "Omsaetningsavgift",
       "vat_abbr": "MOMS",
@@ -65,7 +65,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "DE",
+       "countryShortName": "DE",
       "country": "Germany",
       "vat_name": "Umsatzsteuer",
       "vat_abbr": "USt",
@@ -76,7 +76,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "EE",
+       "countryShortName": "EE",
       "country": "Estonia",
       "vat_name": "Käibemaks",
       "vat_abbr": "KMKR",
@@ -87,7 +87,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "GR",
+       "countryShortName": "GR",
       "country": "Greece",
       "vat_name": "Foros prostithemenis axias",
       "vat_abbr": "FPA",
@@ -98,7 +98,7 @@
       "parking_rate": 0.00
     },
     {
-      "country_short_name": "ES",
+      "countryShortName": "ES",
       "country": "Spain",
       "vat_name": "Impuesto sobre el valor añadido",
       "vat_abbr": "IVA",
@@ -109,7 +109,7 @@
       "parking_rate": 0.00
     },
     {
-      "country_short_name": "FI",
+      "countryShortName": "FI",
       "country": "Finland",
       "vat_name": "Arvonlisävero",
       "vat_abbr": "ALV",
@@ -120,7 +120,7 @@
       "parking_rate": 0.00
     },
     {
-      "country_short_name": "FR",
+      "countryShortName": "FR",
       "country": "France",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA",
@@ -131,7 +131,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "HR",
+       "countryShortName": "HR",
       "country": "Croatia",
       "vat_name": "Porez na dodanu vrijednost",
       "vat_abbr": "PDV",
@@ -142,7 +142,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "IT",
+       "countryShortName": "IT",
       "country": "Italy",
       "vat_name": "Imposta sul valore aggiunto",
       "vat_abbr": "IVA",
@@ -153,7 +153,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "LV",
+       "countryShortName": "LV",
       "country": "Latvia",
       "vat_name": "Pievienotas vertibas nodoklis",
       "vat_abbr": "PVN",
@@ -164,7 +164,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "LT",
+       "countryShortName": "LT",
       "country": "Lithuania",
       "vat_name": "Pridetines vertes mokestis",
       "vat_abbr": "PVM",
@@ -175,7 +175,7 @@
       "parking_rate": 0.00
     },
     {
-      "country_short_name": "LU",
+      "countryShortName": "LU",
       "country": "Luxembourg",
       "vat_name": "Taxe sur la valeur ajoutée",
       "vat_abbr": "TVA",
@@ -186,7 +186,7 @@
       "parking_rate": 12.00
     },
     {
-      "country_short_name": "HU",
+      "countryShortName": "HU",
       "country": "Hungary",
       "vat_name": "Általános forgalmi adó",
       "vat_abbr": "AFA",
@@ -197,7 +197,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "IE",
+       "countryShortName": "IE",
       "country": "Ireland",
       "vat_name": "Value added tax",
       "vat_abbr": "VAT",
@@ -208,7 +208,7 @@
       "parking_rate": 13.50
     },
     {
-      "country_short_name": "MT",
+      "countryShortName": "MT",
       "country": "Malta",
       "vat_name": "Value added tax",
       "vat_abbr": "VAT",
@@ -219,7 +219,7 @@
       "parking_rate": 0.00
     },
    {
-     "country_short_name": "NL",
+     "countryShortName": "NL",
       "country": "Netherlands",
       "vat_name": "Omzetbelasting",
       "vat_abbr": "OB",
@@ -230,7 +230,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "PL",
+       "countryShortName": "PL",
       "country": "Poland",
       "vat_name": "Podatek od towaròw i uslug",
       "vat_abbr": "VAT",
@@ -241,7 +241,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "PT",
+       "countryShortName": "PT",
       "country": "Portugal",
       "vat_name": "Imposto sobre o valor acrescentado",
       "vat_abbr": "IVA",
@@ -252,7 +252,7 @@
       "parking_rate": 13.00
     },
     {
-      "country_short_name": "RO",
+      "countryShortName": "RO",
       "country": "Romania",
       "vat_name": "Taxa pe valoarea adãugata",
       "vat_abbr": "TVA",
@@ -263,7 +263,7 @@
       "parking_rate": 0.00
     },
     {
-  "country_short_name": "SI",
+      "countryShortName": "SI",
       "country": "Slovenia",
       "vat_name": "Davek na dodano vred nost",
       "vat_abbr": "DDV",
@@ -274,7 +274,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "SK",
+       "countryShortName": "SK",
       "country": "Slovakia",
       "vat_name": "Dan z pridanej hodnoty",
       "vat_abbr": "DPH",
@@ -285,7 +285,7 @@
       "parking_rate": 0.00
     },
      {
-       "country_short_name": "SE",
+       "countryShortName": "SE",
       "country": "Sweden",
       "vat_name": "Mervärdeskatt",
       "vat_abbr": "ML",

@@ -11,11 +11,11 @@ import lombok.*;
 @Data
 @Entity
 @ToString
-public class Rates {
+public class Rate {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int country_id;
-    private String country_short_name;
+    private String countryShortName;
     private String country;
     private String vat_name;
     private String vat_abbr;
