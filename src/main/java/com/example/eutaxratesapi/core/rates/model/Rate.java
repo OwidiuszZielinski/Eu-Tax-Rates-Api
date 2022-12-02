@@ -1,10 +1,13 @@
 package com.example.eutaxratesapi.core.rates.model;
 
+import com.example.eutaxratesapi.core.rates.dto.RateDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
+
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,7 +17,7 @@ import lombok.*;
 public class Rate {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int country_id;
+    private long country_id;
     private String countryShortName;
     private String country;
     private String vat_name;
@@ -24,4 +27,6 @@ public class Rate {
     private double reduced_rate_alt;
     private double super_reduced_rate;
     private double parking_rate;
+
+
 }

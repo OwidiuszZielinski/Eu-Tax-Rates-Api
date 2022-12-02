@@ -1,5 +1,6 @@
 package com.example.eutaxratesapi.core.rates;
 
+import com.example.eutaxratesapi.core.rates.dto.RateDTO;
 import com.example.eutaxratesapi.core.rates.model.Rate;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -31,12 +32,22 @@ public class RateService {
         }
     }
 
-    public List<Rate> getAllRates(){
-        return taxRepository.findAll();
+    public void clearAllRates(){
+        taxRepository.deleteAll();
     }
 
-    public Rate getRateByShortName(String shortName){
-        return taxRepository.findByCountryShortName(shortName);
+    public List<RateDTO> getAllRates(){
+        return RateDTO.fromRateList(taxRepository.findAll());
+    }
+
+    public RateDTO getRateByShortName(String shortName){
+        if(shortName.length() > 2){
+            throw new IllegalArgumentException("To length value");
+        }
+         if(shortName.length() < 2) {
+             throw new IllegalArgumentException("To short value");
+         }
+        return RateDTO.fromRate(taxRepository.findByCountryShortName(shortName));
     }
 
 }

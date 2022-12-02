@@ -13,6 +13,7 @@ public class MyStartConfig implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        rateService.clearAllRates();
         rateService.saveTaxsFromJsonFileToDB();
     }
 }
